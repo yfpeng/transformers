@@ -2,11 +2,12 @@
 language: 
 - en
 tags:
+- bert
 - bluebert
 license: 
 - PUBLIC DOMAIN NOTICE
 datasets:
-- pubmed
+- PubMed
 
 ---
 
@@ -58,3 +59,21 @@ sentence = re.sub(r"\s's\b", "'s", sentence)
   pages     = {58--65},
 }
 ```
+
+### Acknowledgments
+
+This work was supported by the Intramural Research Programs of the National Institutes of Health, National Library of
+Medicine and Clinical Center. This work was supported by the National Library of Medicine of the National Institutes of Health under award number 4R00LM013001-01.
+
+We are also grateful to the authors of BERT and ELMo to make the data and codes publicly available.
+
+We would like to thank Dr Sun Kim for processing the PubMed texts.
+
+### Disclaimer
+
+This tool shows the results of research conducted in the Computational Biology Branch, NCBI. The information produced
+on this website is not intended for direct diagnostic use or medical decision-making without review and oversight
+by a clinical professional. Individuals should not change their health behavior solely on the basis of information
+produced on this website. NIH does not independently verify the validity or utility of the information produced
+by this tool. If you have questions about the information produced on this website, please see a health care
+professional. More information about NCBI's disclaimer policy is available.
